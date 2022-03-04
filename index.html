@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<style>
+html
+{
+    background-color: hsl(210deg, 3%, 15%);
+    color: yellow;
+    font-family: monospace;
+    font-size: 2.5vmin;
+}
+#img-div
+{
+    text-align: center;
+    background-color: hsl(210deg, 3%, 30%);
+    width: 100vw;
+    height: auto;
+    margin-left: -3vw;
+    margin-right: 0vw;
+    padding: 5vh 1vw 2.5vh 1vw;
+}
+
+img
+{
+    height:auto;
+    width: 30%;
+    border-color: cyan;
+    border-radius: 0.5vmax;
+    border-width: 0.5vmax;
+    border-style: solid;
+}
+
+#title
+{
+    text-align: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: cyan;
+}
+
+a:hover
+{
+    animation-name: link_;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes link_ 
+{
+    0%
+    {
+        color: cyan;
+    }
+    100%
+    {
+        color: #FF6600;
+    }
+}
+ul
+{
+    text-align: justify;
+    line-height: 5vh;
+}
+footer
+{
+    text-align: center;
+}
+
+#title
+{
+    text-align: center;
+    font-size: 10vmin;
+}
+
+#tribute-info
+{
+    text-align: center;
+}
+</style>
+
+
+<html>
+
+<head>
+    <title>Tribute Page</title>
+</head>
+
+<body>
+    <main id = "main">
+
+            <h1 id = "title"><strong>Elon Musk</strong></h1>
+            
+            <div id = "img-div">
+                <img src = "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc5OTk2ODUyMTMxNzM0ODcy/gettyimages-1229892983-square.jpg" alt = "An image of Elon Musk">
+                <h4 id = "img-caption">Elon Musk at an interview</h2>
+            </div>
+                <h2 id = "tribute-info"><u>The man behind Paypal, SpaceX, Tesla and more</u></h2>
+        <article>
+            <ul>
+                <li>1971 - Born in Pretoria, South Africa.</li>
+                <li>1988 - Moved to Canada to study at Queen's University.</li>
+                <li>1990 - Moved to California in 1995, where he gratuated with a degree in physics and economics at the University of Pennsylvania.</li>
+                <li>1995 - Co-founds the web software company Zip2 with his brother.</li>
+                <li>1999 - Co-founds X.com, which would go on to become Paypal.</li>
+                <li>2002 - Founds SpaceX.</li>
+                <li>2004 - Joins Tesla Motors as chairman and product architect, becomin the CEO in 2008.</li>
+                <li>2015 - Co-founds OpenAi, a non-profit organization that researches friendly artificial intelligence.</li>
+                <li>2016 - Co-founds Neuralink, a company focused on brain-computer interfaces, as well as founding the tunnel contrusction company "The Boring Company".</li>
+            </ul>
+        </article>
+            <footer>For more information, <a id = "tribute-link" target = "_blank" href = "https://en.wikipedia.org/wiki/Elon_Musk">visit the Wikipedia Page.</a></footer>
+    </main>
+</body>
+
+</html>
